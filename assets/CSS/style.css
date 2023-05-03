@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+
+/* start header sestion */
+.overlay{
+    background-color: rgba(0, 0, 0,0.5);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+.nav{
+    overflow: hidden;
+    padding-top: 10px;
+}
+.logo{
+   
+    width: 30%;
+    float: left; 
+}
+.logo img{
+    width: 40%;
+}
+.nav-contant{
+    text-align: right;
+    margin-right: 10px;
+}
+.nav-contant ul{
+    width: 60%;
+    float: left;
+}
+.nav-contant .list-item{
+    display: inline-block;
+    padding-top: 20px;
+
+}
+.nav-contant .list-item a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Alegreya';
+    margin-right: 20px;
+}
+.header{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    
+}
+.header h1{
+    font-family: 'Alegreya';
+    font-size: 76px;
+    font-weight: 400;
+    
+}
+.header p{
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.header button{
+    padding: 20px 35px;
+    border-radius: 7px;
+}
+.learn_more{
+    background-color: rgb(193, 171, 132);
+    color: #fff;
+}
+.learn_more:hover{
+    background-color: #fff;
+    color:black;
+}
+/* end header sestion ------------------------------------------*/
+
+/* start we are sestion */
+.we-are{
+    overflow: hidden;
+    padding: 70px;
+}
+.chef-photo{
+    float: left;
+    width: 50%;
+}
+.chef-photo img{
+    width: 80%;
+}
+.info{
+    margin-top: 70px;
+    float: left;
+    width: 50%;
+}
+.info h2{
+    color: #253048;
+    font-size: 36px;
+    font-weight: 400;
+    opacity: 1;
+    visibility: visible;
+    font-family: "Alegreya";
+}
+.info h3{
+    font-family: "Dancing Script";
+    font-weight: 400;
+    color: rgb(193, 171, 132);
+    font-size: 30px;
+    padding-top: 10px;
+}
+.info p{
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.icons ul li i{
+    color: #fff;
+    background-color: #c1ab84;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 24px; 
+}
+.icons span{
+    margin-right: 10px;
+}
+/* end we are sestion ----------------------------------------*/
+
+
+/* Start reviewers sestion */
+.reviewers{
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+.rev-cont{
+    float: left;
+    width: 40%;
+    padding: 60px;
+}
+.rev-cont h2{
+    color: #253048;
+    font-size: 36px;
+    font-weight: 400;
+    opacity: 1;
+    visibility: visible;
+    font-family: "Alegreya";
+    
+}
+.rev-cont h3{
+    font-family: "Dancing Script";
+    font-weight: 400;
+    color: rgb(193, 171, 132);
+    font-size: 30px;
+    padding-top:15px;
+    padding-bottom: 20px;
+}
+.rev-cont p{
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.rev-cont ul li{
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    line-height: 40px;
+}
+.rev-cont span{
+    color: rgb(193, 171, 132);
+    padding-right: 20px;
+}
+.rev-img{
+    float: left;
+    width: 50%;
+
+}
+.rev-img img{
+    width: 80%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+/* End reviewers sestion ------------------------------------- */
+.full-img img{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
