@@ -1,2 +1,2 @@
 # My_Site
-Restorant website 
+My personal website 
